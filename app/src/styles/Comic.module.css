@@ -1,0 +1,241 @@
+
+.img_box{
+    position:relative;
+    height: 276px;
+    box-shadow: 0px 5px 15px #00000029;
+}
+
+.comic_card{
+    width: 183px;
+}
+.comicDetails{
+    list-style-type: none;
+    width:100%;
+}
+
+.comicDetails > li{
+    margin-top:5px;   
+}
+
+.comicDetails > h3{
+    margin-bottom:10px;   
+}
+
+.comicDetails > li > label{
+    font-weight: bold;   
+}
+
+.comicDetails > li > p{
+    font-weight: normal;   
+}
+
+.btn_notselected{
+    border-radius: 50%;
+    height:35px;
+    width:35px;
+    background-color:black;
+}
+
+.btn_notselected:hover{
+    border-radius: 50%;
+    height:35px;
+    width:35px;
+    background-color:#B65368;
+    border-color:white;
+}
+
+.btn_selected{
+    border-radius: 50%;
+    height:35px;
+    width:35px;
+    background-color:#B65368;
+    border-color:white;
+}
+
+.btn_icon{
+    color:white;
+    width: 10px;
+    height: 16px;
+}
+
+.btn_container{
+    width:fit-content;
+    margin:-10px auto auto auto;
+    position:relative;
+    z-index:5;
+}
+
+.btn_hamburger{
+    width:18px;
+    height:21px
+}
+.comic_details{
+    font-family: sans-serif;
+    margin:5px;
+}
+
+.selectedComic{
+    background-color:red;
+}
+
+.comic_header{
+    background: transparent linear-gradient(180deg, #000000B3 0%, #00000000 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    list-style-type: none;
+}
+
+.comic_header div > li > div{
+    font:var(--font-style-secondary);
+    color: var(--main-bg-color);
+}
+
+.favorites_list{
+    display:flex;
+    min-height: 360px;
+    height:min-content;
+    flex-direction: column;
+    background-color: var(--background-color-alt);
+    padding: 1em;
+    align-items: left;
+    width:265px;
+    justify-content:"space-around";
+}
+
+.favorites_list > h2{
+    color:var(--font-colot-alt);
+    font: normal normal 900 25px/30px 'Montserrat';
+    letter-spacing: 0.25px;
+    margin:10px 0 15px 15px;
+
+
+}
+
+.favorite_remove_btn{
+    text-align: center;
+    font: normal normal normal 4px/12px "Font Awesome 5 Free";
+    letter-spacing: 0px;
+    color: #C24868;
+    opacity: .9;
+    position:absolute;
+    border-radius: 100%;
+    width:16px;
+    border-color:transparent;
+    
+}
+
+.filter_bar{
+    background-color:#222222;
+    color:#F8F8F2;
+    display:flex;
+    width:85.5%;
+    margin-bottom:10px;
+    height:60px;
+    align-items: center;
+    padding-left:18px;
+    font: normal normal bold 14px/16px 'Montserrat';
+    flex-shrink:2;
+}
+
+.header_link > a{
+    font-family: "Montserrat";
+    letter-spacing: 2px;
+    color: #F8F8F2;
+    opacity: 1;
+    font-weight:550;
+}
+.header_link > a >span{
+    font-weight:400;
+}
+
+.pager_contrainer{
+    display:flex;
+    width:100%;
+    justify-content:center;
+    align-items:center;
+
+}
+
+
+.pager_contrainer > button{
+    background: #222222 0% 0% no-repeat padding-box;
+    border-radius: 9999px;
+    opacity: 1;
+    width: 35px;
+    height: 35px;
+    color: #F8F8F2;
+    font: normal normal normal 18px/16px "Font Awesome 5 Free";
+}
+
+.pager_contrainer > span{
+    text-align: right;
+    font: normal normal normal 18px/16px "Karla";
+    letter-spacing: 0px;
+    color: #222222;
+    opacity: 1;
+    margin: 0 20px 0 20px;
+}
+
+
+.textbox{
+    width:100%;
+    height: 200px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:60px
+
+    
+}
+
+.textbox > div{
+    width:500px;
+}
+
+.textbox > div > h1{
+    text-align: left;
+    font: normal normal 900 49px/16px 'Montserrat';
+    letter-spacing: 0px;
+    color: #C24868;
+    opacity: 1;
+    margin-bottom:40px
+}
+
+.textbox > div > p{
+    text-align: left;
+    font: normal normal normal 20px/32px 'Montserrat';
+    letter-spacing: 0px;
+    color: #222222;
+    opacity: 1;
+}
+
+.footer{
+height: 268px;
+background: #222222 0% 0% no-repeat padding-box;
+opacity: 1;
+width:100%;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+color: #F8F8F2;
+
+}
+.footer > div{
+    margin-top:15px;
+}
+
+.footer > span{
+    text-align: center;
+    font: normal normal normal 14px/16px 'Montserrat';
+    letter-spacing: 0px;
+    color: #F8F8F2;
+    opacity: 1;
+}
+
+.footer > a{
+    text-align: center;
+    font: normal normal normal 14px/16px 'Montserrat';
+    letter-spacing: 0px;
+    color: #F8F8F2;
+    opacity: 1;
+}
